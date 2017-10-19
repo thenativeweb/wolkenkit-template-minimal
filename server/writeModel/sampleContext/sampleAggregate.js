@@ -14,7 +14,7 @@ const initialState = {
 
 const commands = {
   sampleCommand (sampleAggregate, command, mark) {
-    message.events.publish('sampleEvent', {
+    sampleAggregate.events.publish('sampleEvent', {
       // ...
     });
 
@@ -24,7 +24,7 @@ const commands = {
 
 const events = {
   sampleEvent (sampleAggregate, event) {
-    message.setState({
+    sampleAggregate.setState({
       // ...
     });
   }
