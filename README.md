@@ -5,7 +5,7 @@ wolkenkit-template-minimal is an (almost) empty template for wolkenkit applicati
 ## Quick start
 
 ```shell
-$ wolkenkit init --template git@github.com:thenativeweb/wolkenkit-template-minimal.git
+$ wolkenkit init --template https://github.com/thenativeweb/wolkenkit-template-minimal.git
 ```
 
 ## License
