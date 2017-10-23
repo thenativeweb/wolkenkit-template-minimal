@@ -1,12 +1,20 @@
 # wolkenkit-template-minimal
 
-wolkenkit-template-minimal is an (almost) empty template for wolkenkit applications.
+wolkenkit-template-minimal is an application template for wolkenkit.
 
-## Quick start
+## Installation
+
+This is an application template for [wolkenkit](https://www.wolkenkit.io), a CQRS- and event-sourcing framework for JavaScript and Node.js. If you have not yet installed its CLI, please see the [thenativeweb/wolkenkit](https://github.com/thenativeweb/wolkenkit) repository.
+
+To install this template use the wolkenkit CLI:
 
 ```shell
 $ wolkenkit init --template https://github.com/thenativeweb/wolkenkit-template-minimal.git
 ```
+
+## Quick start
+
+Since this template does not contain a complete application, you can't run it directly.
 
 ## License
 

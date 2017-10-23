@@ -1,7 +1,7 @@
 {
   "name": "wolkenkit-template-minimal",
   "version": "1.0.0",
-  "description": "wolkenkit-template-minimal is an (almost) empty template for wolkenkit applications.",
+  "description": "wolkenkit-template-minimal is an application template for wolkenkit.",
   "wolkenkit": {
     "application": "sample",
     "runtime": {
