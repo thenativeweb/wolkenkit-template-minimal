@@ -1,10 +1,8 @@
 'use strict';
 
 const when = {
-  'sampleContext.sampleAggregate.sampleEvent' (event, mark) {
+  async 'sampleContext.sampleAggregate.sampleEvent' (event) {
     // ...
-
-    mark.asDone();
   }
 };
 
