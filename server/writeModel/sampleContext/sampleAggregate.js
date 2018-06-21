@@ -13,12 +13,10 @@ const initialState = {
 };
 
 const commands = {
-  sampleCommand (sampleAggregate, command, mark) {
+  async sampleCommand (sampleAggregate, command) {
     sampleAggregate.events.publish('sampleEvent', {
       // ...
     });
-
-    mark.asDone();
   }
 };
 

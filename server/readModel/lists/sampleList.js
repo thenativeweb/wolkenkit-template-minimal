@@ -5,12 +5,10 @@ const fields = {
 };
 
 const when = {
-  'sampleContext.sampleAggregate.sampleEvent' (sampleList, event, mark) {
+  async 'sampleContext.sampleAggregate.sampleEvent' (sampleList, event) {
     sampleList.add({
       // ...
     });
-
-    mark.asDone();
   }
 };
 
