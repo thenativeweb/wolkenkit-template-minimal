@@ -4,7 +4,7 @@ const fields = {
   sampleField: { initialState: '', fastLookup: true }
 };
 
-const when = {
+const projections = {
   async 'sampleContext.sampleAggregate.sampleEvent' (sampleList, event) {
     sampleList.add({
       // ...
@@ -12,4 +12,4 @@ const when = {
   }
 };
 
-module.exports = { fields, when };
+module.exports = { fields, projections };

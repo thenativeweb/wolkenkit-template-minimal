@@ -1,9 +1,9 @@
 'use strict';
 
-const when = {
+const reactions = {
   async 'sampleContext.sampleAggregate.sampleEvent' (event) {
     // ...
   }
 };
 
-module.exports = { when };
+module.exports = { reactions };
