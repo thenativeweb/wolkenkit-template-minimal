@@ -5,7 +5,7 @@
   "wolkenkit": {
     "application": "sample",
     "runtime": {
-      "version": "latest"
+      "version": "2.0.0"
     },
     "environments": {
       "default": {
@@ -14,9 +14,6 @@
             "host": "local.wolkenkit.io",
             "port": 3000
           },
-          "allowAccessFrom": "*"
-        },
-        "fileStorage": {
           "allowAccessFrom": "*"
         },
         "node": {
